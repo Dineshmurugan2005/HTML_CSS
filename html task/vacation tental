@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="topbar">
+    <span>Phone no: <b>+001234567</b> or email: <b>sample@gmail.com</b></span>
+   </div>
+   <header>
+   <div class="logo">Vocation<span>Rental</span></div>
+   <nav>
+    <a href="#">HOME</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Apartment Room </a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+   </nav>
+   </header> 
+   <main>
+            <section class="cont">
+                <div class="cont1">
+                    <p>Welcome to vacation rental</p>
+                    <h1>Rent on Appartment for ypur vaction</h1>
+                    <div class="cont1btn">
+                        <button>LEARN MORE</button>
+                        <button>CONTACTUS</button>
+                    </div>
+                </div>
+                <FORM class="Booking form">
+                    <h2>Book your Apartment</h2>
+                    <input type="text" placeholder="Full Name">
+                    <div class="booking1">
+                        <input type="date"placeholder="Check-In">
+                        <input type="date"placeholder="Check-Out">
+                    </div>
+                    <div class="booking2">
+                        <select>
+                            <option>Adults</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                        <select>
+                            <option>Children</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+
+                    </div>
+                    <div class="booking3">
+                        <input type="number"placeholder="Phone number">
+                        <input type="time"placeholder="Time">
+                    </div>
+                    <button type="Submit">BOOK APPARTMENT NOW</button>                    
+                </FORM>
+             </section>
+   </main>
+</body>
+</html>
