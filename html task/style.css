@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fcf5f5 ;
+    font-family: Arial, sans-serif;
+}
+.topbar{
+    background-color: #ee4074;
+    color: #fcf5f5c4;
+    padding: 6px;
+    text-align: center;
+}
+header{
+    padding: 20px;
+    align-items:  center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid#eee;
+    display: flex;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo span{
+    color: #ee4074;
+}
+nav a{
+    margin: 14px;
+    color: #222;
+    font-weight: 400;
+}
+nav a:hover{
+    color: #ee4074;
+}
+.cont{
+    background: url(/asset/b3.jpg)no-repeat right center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    height: 60vh;
+    align-items: center;
+}
+.cont1 h1{
+    color: #fff;
+    margin-bottom: 24px;
+    font-size: 60px;
+    font-weight: bold;
+}
+button{
+    padding: 8px;
+    width: 200px;
+    background: #fff;
+    color:#222;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+button:hover{
+    background-color: #ee4074;
+    color:#eee
+}
+.Booking form{
+     background: #fff;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(60, 60, 60, 0.14);
+    min-width: 280px;
+}
